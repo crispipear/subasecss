@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  box-sizing: border-box; 
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.col{
+ flex: 1
+}
+.col-1{flex: 0 0 6.33333%}
+.col-2{flex: 0 0 14.66666%}
+.col-3{flex: 0 0 21.99999%}
+.col-4{flex: 0 0 31.33333%}
+.col-5{flex: 0 0 39.66666%}
+.col-6{flex: 0 0 47.99999%}
+.col-7{flex: 0 0 56.33333%}
+.col-8{flex: 0 0 66.66666%}
+.col-9{flex: 0 0 74.99999%}
+.col-10{flex: 0 0 83.33333%}
+.col-11{flex: 0 0 91.66666%}
+.col-12,.col-full{flex: 0 0 100%}
