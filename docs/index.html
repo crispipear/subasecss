@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <title>Su's Base CSS Template</title>
-    <style>
-      *{
-        font-family: 'Roboto';
-       }
-    </style>
-  </head>
-  <body>
-    <h1>Hello</h1>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="../src/subasecss.css" type="text/css" rel="stylesheet">
+  <link href="index.css" type="text/css" rel="stylesheet">
+  <title>subasecss doc</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Basic Grid</h1>
+    <div class="row">
+      <div class="col col-full test">full width - 1</div>
+    </div>
+    <div class="row">
+      <div class="col col test">1/2</div>
+      <div class="col col test">1/2</div>
+    </div>
+    <div class="row">
+      <div class="col col test">1/3</div>
+      <div class="col col test">1/3</div>
+      <div class="col col test">1/3</div>
+    </div>
+    <div class="row">
+      <div class="col col test">1/4</div>
+      <div class="col col test">1/4</div>
+      <div class="col col test">1/4</div>
+      <div class="col col test">1/4</div>
+    </div>
+    <div class="row">
+      <div class="col col test">1/5</div>
+      <div class="col col test">1/5</div>
+      <div class="col col test">1/5</div>
+      <div class="col col test">1/5</div>
+      <div class="col col test">1/5</div>
+    </div>
+    <div class="row">
+      <div class="col col test">1/6</div>
+      <div class="col col test">1/6</div>
+      <div class="col col test">1/6</div>
+      <div class="col col test">1/6</div>
+      <div class="col col test">1/6</div>
+      <div class="col col test">1/6</div>
+    </div>
+    <p>and so on until 1/12 size columns</p>
+
+    <p>use class name "col" inside of class "row"
+    <pre>&lt;div class=<b>"row"</b>&gt;
+    &lt;div class=<b>"col"</b>&gt;&lt;/div&gt;
+    &lt;div class=<b>"col"</b>&gt;&lt;/div&gt;<br>&lt;/div&gt;</pre></p>
+  </div>
+</body>
+
 </html>
